@@ -1,0 +1,23 @@
+import Llist
+
+def _test():
+    aList = Llist.LList()
+    print(aList.pop())
+    aList.append(5)
+    aList.append(6)
+    aList.append(2)
+    aList.prepend(6)
+    aList.prepend(5)
+    aList.append(4)
+    aList.insert(5, 9)
+    aList.insert(0, 4)
+    aList.insert(8, 0)
+    aList.insert(9, -1)
+    aList.prints()
+    print(aList.length())
+    aList.sort()
+    aList.prints()
+
+if __name__ == "__main__":
+    _test()
+
