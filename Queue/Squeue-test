@@ -1,0 +1,20 @@
+import Squeue
+def _test():
+    squeue = Squeue.Squeue()
+    squeue.enqueue(5)
+    squeue.enqueue(4)
+    squeue.enqueue(3)
+    squeue.enqueue(2)
+    squeue.prints()
+    num1 = squeue.dequeue()
+    num2 = squeue.dequeue()
+    num3 = squeue.dequeue()
+    print(num1, num2, num3)
+    squeue.prints()
+    squeue.enqueue(1)
+    squeue.enqueue(0)
+    squeue.prints()
+
+
+if __name__ == "__main__":
+    _test()
