@@ -1,0 +1,15 @@
+import Sstack
+
+def _test():
+    stacks = Sstack.Sstack()
+    stacks.push(5)
+    stacks.push(4)
+    stacks.push(3)
+    stacks.push(2)
+    stacks.prints()
+    stacks.pop()
+    stacks.pop()
+    stacks.prints()
+
+if __name__ == "__main__":
+   _test()
